@@ -1,0 +1,34 @@
+
+$primary: #29c7cc;
+$secondary: #899799;
+$tertiary: #DCFADA;
+$dark-grey: #656565;
+$white: #ffffff;
+$black: #000000;
+$light-grey: #ededed;
+$grey: #828282;
+$red: #ff0000;
+$blue: #2746E7;
+$black90: lighten($black, 10%);
+$black80: lighten($black, 20%);
+$black70: lighten($black, 30%);
+$black60: lighten($black, 40%);
+$black50: lighten($black, 50%);
+$black40: lighten($black, 60%);
+$black30: lighten($black, 70%);
+$black20: lighten($black, 80%);
+$black10: lighten($black, 90%);
+$black7: lighten($black, 93%);
+$black5: lighten($black, 95%);
+$link: $primary;
+
+$small: 'screen and (min-width: 28em)';
+$small_portrait: 'screen and (min-width: 28em) and (orientation: portrait)';
+$small_landscape: 'screen and (min-width: 28em) and (orientation: landscape)';
+
+$medium: 'screen and (min-width: 48em)';
+$medium_portrait: 'screen and (min-width: 48em) and (orientation: portrait)';
+$medium_landscape: 'screen and (min-width: 48em) and (orientation: landscape)';
+
+$large: 'screen and (min-width: 64em)';
+$extra_large: 'screen and (min-width: 75em)';

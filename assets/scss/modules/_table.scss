@@ -1,0 +1,36 @@
+.ve-table-custom {
+  width: 85%;
+  margin-bottom: 20px;
+  thead {
+    th {
+      background: #29c7cc !important;
+      font-weight: 900 !important;
+      font-size: 12pt !important;
+    }
+  }
+
+  tbody {
+    tr {
+      &:nth-child(odd) {
+        td {
+          vertical-align: text-top;
+          background: #d7d7d7 !important;
+        }
+      }
+
+      td {
+        vertical-align: text-top;
+        background: #fff !important;
+        font-size: 12pt !important;
+        a {
+          color: #459dda;
+        }
+      }
+    }
+  }
+}
+
+.ve-table {
+    border-radius: 20px;
+    border: solid 1px !important;
+}

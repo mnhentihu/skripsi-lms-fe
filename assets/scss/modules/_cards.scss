@@ -1,0 +1,24 @@
+.cards-style {
+  margin-top: 10px;
+  box-shadow: 10px 10px 20px 5px #888;
+  transition: 0.3s;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.header{
+  background-color: rgba($color: #fff, $alpha: 0.5);
+}
+
+.head-text{
+  text-transform: uppercase;
+}
+
+.content{
+  font-size: 12pt;
+}
+
+.form-error-msg {
+	color: red;
+	font-size: 85%;
+}
